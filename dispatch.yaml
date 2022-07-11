@@ -1,0 +1,13 @@
+dispatch:
+
+- url: "finalproject-351111.uc.r.appspot.com/"
+  service: default
+
+- url: "*/analytics*"
+  service: analytics
+
+- url: "*/market*"
+  service: market
+
+- url: "*/tasks*"
+  service: tasks

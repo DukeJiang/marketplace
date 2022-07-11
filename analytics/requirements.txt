@@ -1,0 +1,9 @@
+Flask==2.0.3
+flask_wtf
+wtforms
+flask_login
+flask_sqlalchemy
+flask_bcrypt
+email_validator
+google-cloud-storage
+google-cloud-datastore

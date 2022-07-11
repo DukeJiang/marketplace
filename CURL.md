@@ -1,0 +1,1 @@
+# Enpoints require login. Please use the UI for testing the endpoints

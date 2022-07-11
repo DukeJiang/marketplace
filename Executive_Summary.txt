@@ -1,0 +1,12 @@
+This project is a barebone market application where people can create accounts, 
+create and update their listings, delete listings and view all listings on the market.
+Users are not required to login to view the market but they need to register and log in
+to create a new listing, update listing and delete listings of their own.
+When a user creates a new listing, an email will be sent to the user's email that he used
+for registration. Because of the constraint of mailgun, I can only send emails to verified
+email address for this demo. A screen shot of confirmation email is included in this directory
+as "listing_creation_email.jpg".
+This is achieved through cloud function. The detail of the implementation can be found
+in the cloud function dashboard of my project.
+On the topic of email, I have implemented a health check cron task that checks for the
+health condition of the market endpoints every 6 hours.

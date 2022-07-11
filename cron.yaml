@@ -1,0 +1,5 @@
+cron:
+  - description: "monitor the health of our apis"
+    url: /tasks/health
+    schedule: every 6 hours
+    target: tasks
